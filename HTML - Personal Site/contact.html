@@ -12,15 +12,37 @@
     <p>Contact No- 9876543210</p>
     <p>Email me- shani@gmail.com</p>
 
-    <form action="index.html" method="" class="">
-      <label for="">Your Name: </label>
-      <input type="text" name="fname" placeholder="Enter Your Name" /><br />
-      <label for="">Your Email: </label>
-      <input type="email" name="email" placeholder="Enter your email" /><br />
-      <label for="">Do you want to sign up for the email list?</label>
-      <input type="checkbox" name="" id="" /><br />
-      <label for="">Password: </label>
-      <input type="password" name="" id="" /><br />
+    <hr />
+
+    <form
+      action="mailto:shani.gupta_cs@outlook.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="fname">Your Name: </label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="Enter Your Name"
+      /><br />
+      <label for="email">Your Email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      /><br />
+      <label for="pass">Password: </label>
+      <input
+        type="password"
+        name="pass"
+        id="pass"
+        placeholder="Enter your password"
+      /><br />
+      <label>Your Message: </label><br />
+      <textarea rows="10" cols="30" id="message" name="message"></textarea
+      ><br />
       <input type="submit" />
     </form>
   </body>
